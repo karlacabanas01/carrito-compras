@@ -7,9 +7,9 @@ import Title from "./components/Title";
 class App extends Component {
   state = {
     productos: [
-      { name: "Tomate", price: 1500, img: "/src/img/tomate.jpg" },
-      { name: "Arbejas", price: 2500, img: "/src/img/arveja.jpeg" },
-      { name: "Lechuga", price: 500, img: "/src/img/lechuga.jpg" },
+      { name: "Tomate", price: 1500, img: "/img/tomate.jpg" },
+      { name: "Arbejas", price: 2500, img: "/img/arbejas.jpg" },
+      { name: "Lechuga", price: 500, img: "/img/lechuga.jpg" },
     ],
     carro: [],
     esCarroVisible: false,
